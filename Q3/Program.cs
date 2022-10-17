@@ -10,7 +10,7 @@ int winCount = 0, drawCount = 0, lossCount = 0;
 for (int i = 0; i < results.Length; i++) //treat string as array
 {
     if (results[i] == 'W')
-        winCount++;
+        winCount++; //keep tally of wins, draws, losses
     else if (results[i] == 'D')
         drawCount++;
     else

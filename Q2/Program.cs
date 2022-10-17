@@ -26,4 +26,4 @@ switch (place) //discount used depends on user input
 
 double price = 100 - discount;
 
-Console.WriteLine($"The cost for a round of golf is {price}");
+Console.WriteLine($"The cost for a round of golf is {price} euro");
