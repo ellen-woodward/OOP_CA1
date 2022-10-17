@@ -6,7 +6,7 @@
 Console.Write("Enter birth year: ");
 int year = int.Parse(Console.ReadLine());
 
-int age = 2022 - year; // calculate age
+int age = 2022 - year; // calculate age from birth year
 
 if (age >= 18)
     Console.WriteLine("You can vote!");
