@@ -1,9 +1,14 @@
-﻿Console.Write("Where are you from? (Sligo, Ireland, Europe, Other): ");
+﻿/* Ellen Woodward (S00222321)
+ * 17/10/22
+ * CA1
+ */
+
+Console.Write("Where are you from? (Sligo, Ireland, Europe, Other): ");
 string place = Console.ReadLine().ToLower();
 
 double discount = 0;
 
-switch (place)
+switch (place) //discount used depends on user input
 {
     case "sligo":
         discount = 0.3 * 100;
